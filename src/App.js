@@ -15,7 +15,7 @@ class App extends Component {
     }
   }
   componentDidMount() {
-    const apiUrl = 'http://crypto-currency-exc.herokuapp.com/getAllWebsiteContents';
+    const apiUrl = 'https://crypto-currency-exc.herokuapp.com/getAllWebsiteContents';
 
     fetch(apiUrl)
         .then(res => res.json())
